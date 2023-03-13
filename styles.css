@@ -1,7 +1,17 @@
-header > h1 {
+header > nav > :first-child {
     color: red;
 }
 
-h1 {
-    color: blue;
+header > nav > :last-child {
+    color: purple;
+}
+
+.left {
+    background-color: lightblue;
+}
+.middle {
+    background-color: lightseagreen;
+}
+.right {
+    background-color: lightcoral;
 }
